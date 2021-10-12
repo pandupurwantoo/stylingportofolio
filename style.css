@@ -1,0 +1,263 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(243, 243, 243);
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.menu{
+    float: right;
+}
+
+
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: 700;
+    font-family: 'comic sans ms';
+    font-size: 12px;
+    text-align: right;
+    padding: 0px 15px 0px 15px;
+    text-decoration: none;  
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+p{
+    color: black;
+}
+
+.box{
+    background: white;
+    height: 200px;
+    width: 85%;
+    margin-top: 50px;
+    position: fixed;
+    left: 5%;
+    right: 15%;
+}
+
+.name{
+    position: fixed;
+    margin-left: 250px;
+    margin-top: 42px;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'comic sans ms';
+}
+
+.desc{
+    position: fixed;
+    margin-left: 250px;
+    margin-top: 90px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.daftar{
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 12px;
+    background: blue;
+    margin-top: 130px;
+    margin-left: 250px;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.resume{
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 12px;
+    background: white;
+    margin-top: 130px;
+    margin-left: 320px;
+    padding: 9px 13px 9px 13px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+.list{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 45%;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.list1{
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 45%;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.list2{
+    position: fixed;
+    margin-top: 90px;
+    margin-left: 45%;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.list3{
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 45%;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.list4{
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 45%;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.isi{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 57%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.isi1{
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 57%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.isi2{
+    position: fixed;
+    margin-top: 90px;
+    margin-left: 57%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.isi3{
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 57%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.isi4{
+    position: fixed;
+    margin-top: 150px;
+    margin-left: 57%;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.box .foto1{
+    width: 200px;
+    left: 5%;
+}
+
+.foto1 img{
+    width: 100%;
+    border-radius: 0px;
+}
+
+.box-dua{
+    background: white;
+    height: 450px;
+    width: 85%;
+    margin-top: 50px;
+    position: fixed;
+    left: 5%;
+    right: 15%;
+}
+
+form {
+    overflow: hidden;
+}
+ 
+label {
+    float: left;
+    width: 200px;
+    padding-right: 24px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+ 
+input {
+    float: left;
+    width: calc(100% - 5px);
+    margin-bottom: 15px;
+}
+ 
+button {
+    float: right;
+    width: calc(100% - 200px);
+}
+
+.box-tiga{
+    background: green;
+    height: 30px;
+    width: 85%;
+    margin-top: 500px;
+    position: fixed;
+    left: 5%;
+    right: 15%;
+}
+
+.box-tiga a{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
